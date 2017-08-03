@@ -7,5 +7,5 @@ var konsole = {
     process.stderr.write(msg + '\n');
   }
 };
-konsole.log('A TTY: ');
-konsole.error('B TTY: ');
+konsole.log('A TTY: ' + !!process.stdout.isTTY);
+konsole.error('B TTY: ' +!!process.stderr.isTTY);

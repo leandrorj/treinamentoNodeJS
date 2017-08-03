@@ -2,7 +2,12 @@ var options = [
   'a) pid',
   'b) title',
   'c) arch',
-  'd) platform'
+  'd) platform',
+  'e) env',
+  'm) memory usage',
+  'u) uptime',
+  'v) versions',
+  'q) exit'
 ];
 
 exports.showOptions = function (){
